@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: 100% Lucida Sans, Verdana;
+            margin: 15px;
+        }
+        #header{
+            border-radius: 4px;
+            font-weight: bold;
+            font: 100% Lucida Sans, Verdana;
+            
+            
+            
+        }
+        #header_title{
+            color: #4CAF50;;
+            font-weight: bold;
+            font-size: 32px;
+        }
+        #header_discribe{
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+        }
+        #container_menu > ul{
+            padding-left: 0px;
+        }
+        #container_menu > ul > li{
+            padding-left: 26px;
+            padding-right: 26px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            float: left;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            font: 100% Lucida Sans, Verdana;
+           
+            border: 1px sold d4d4d4;
+            margin: 4px;
+            background: #555555;
+            list-style: none;
+            
+        }
+        #container > #left{
+            flex-basis: 20%;
+        }
+        #container > #center{
+            flex-basis: 60%;
+        }
+        #container > #right{
+            flex-basis: 20%;
+        }
+        .title{
+            font-size: 32px;
+            color:#4CAF50;
+            margin-top: 21.4px;
+            font-weight: bold;
+        }
+        .discribe{
+            line-height: 26px;
+            margin-bottom: 0px;
+            
+        }
+        .links{
+            
+        }
+        .links > a{
+            color: black;
+        }
+        #right{
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 4px;
+            background: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            margin-top: 14px;
+        }
+        #right > #right_title{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 1.17em;
+            color: #4CAF50;
+        }
+        #right > #right_discribe{
+            line-height: 26px;
+        }
+        #footer > #footer_content{
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "header">
+        <div id = "header_title">Welcome to 조아민's Homepage 22200709</div>
+        <div id = "header_discribe">Use the menu to select different Stylesheets</div>
+    </div>
+    <div id = "container">
+        <div id = "left">
+            <div id = "container_menu">
+                <ul>
+                    <li>Stylesheet 1</span>
+                    <li>Stylesheet 2</span>
+                    <li>Stylesheet 3</span>
+                    <li>Stylesheet 4</span>
+                    <li>No Stylesheet</li>
+                </ul>
+            </div>
+        </div>
+        <div id = "center">
+            <div id = "content">
+                <div class = "title">
+                    Same Page Different Stylesheets
+                </div>
+                <p class = "discribe">
+                    This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+                </p>
+                <div class = "links">
+                    <a href="">Stylesheet1,</a>
+                    <a href="">Stylesheet2,</a>
+                    <a href="">Stylesheet3,</a>
+                    <a href="">Stylesheet4,</a>
+                </div>
+                <div class = "title">
+                    No Styles
+                </div>
+                <p class = "discribe">
+                    This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+                </p>
+                <div class="links">
+                    <a href="">No Stylesheet.</a>
+                </div>
+            </div>
+        </div>
+        <div id = "right">
+            <div id = "right_title">Side-Bar</div>
+            <div id = right_discribe>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </div>
+        </div>
+    </div>
+    <div id = footer>
+        <div id = "footer_content">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        </div>
+    </div>
+</body>
+</html>
